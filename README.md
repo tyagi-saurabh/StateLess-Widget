@@ -1,6 +1,6 @@
 # State_Less
 
-A new Flutter project.
+A simple flutter app which showcases a stateless widget. Parts of a flutter app whose content dosen't changes during the lifetime of an app are usually made using stateless widgets.
 
 ## Getting Started
 
