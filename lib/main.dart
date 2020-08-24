@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import "./MyCard.dart";
 
 void main() {
-  runApp(Stateless());
+  runApp(
+    Stateless(),
+  );
 }
 
 class Stateless extends StatelessWidget {
@@ -34,21 +36,27 @@ class Stateless extends StatelessWidget {
                 ),
               ),
               MyCard(
-                  title: Text("Flutter is easy to learn",
-                      style: TextStyle(fontSize: 15)),
-                  icon: Icon(
-                    Icons.developer_mode,
-                    size: 40.0,
-                    color: Colors.red,
-                  )),
+                title: Text(
+                  "Flutter is easy to learn",
+                  style: TextStyle(fontSize: 15),
+                ),
+                icon: Icon(
+                  Icons.developer_mode,
+                  size: 40.0,
+                  color: Colors.red,
+                ),
+              ),
               MyCard(
-                  title: Text("It's the one framework to rule them all",
-                      style: TextStyle(fontSize: 15)),
-                  icon: Icon(
-                    Icons.all_inclusive,
-                    size: 40.0,
-                    color: Colors.green,
-                  ))
+                title: Text(
+                  "It's the one framework to rule them all",
+                  style: TextStyle(fontSize: 15),
+                ),
+                icon: Icon(
+                  Icons.all_inclusive,
+                  size: 40.0,
+                  color: Colors.green,
+                ),
+              )
             ],
           ),
         ),
